@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "start:dev": "nodemon index.js"
+    "start:dev": "pm2-dev start index.js"
   },
   "author": "Alex Lapinski <contact@alexlapinski.name>",
   "license": "MIT",
@@ -14,6 +14,6 @@
     "passport": "^0.3.2"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "pm2": "^2.4.6"
   }
 }
